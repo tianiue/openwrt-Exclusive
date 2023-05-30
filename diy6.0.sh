@@ -33,10 +33,11 @@ git clone https://github.com/tianiue/luci-app-alist.git package/luci-app-alist
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 git clone https://github.com/fw876/helloworld.git package/ssr
 git clone https://github.com/firker/diy-ziyong.git package/diy-ziyong
-git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
+# git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 # git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
-# git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall-luci
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/luci-app-passwall2
 git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
